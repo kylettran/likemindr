@@ -2,10 +2,12 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Mascot } from '@/components/ui/Mascot';
+import { ThemeToggle } from '@/components/ui/ThemeToggle';
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-kawaii-lavender/20 via-background to-kawaii-pink/10">
+    <div className="min-h-screen bg-gradient-to-br from-kawaii-lavender/30 via-background to-kawaii-purple/10">
+      <ThemeToggle />
       {/* Hero Section */}
       <main className="container mx-auto px-4 py-16 md:py-24">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
@@ -30,7 +32,7 @@ export default function LandingPage() {
           <h2 className="text-3xl md:text-4xl font-semibold text-text-primary mb-6">
             Connect with readers who are reading
             <span className="text-kawaii-purple"> the same book</span> as you,
-            <span className="text-kawaii-pink"> right now</span>
+            <span className="text-kawaii-mint"> right now</span>
           </h2>
 
           <p className="text-xl text-text-secondary mb-12 max-w-2xl">

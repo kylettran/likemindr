@@ -2,33 +2,48 @@
 @import "tailwindcss";
 
 :root {
-  /* Kawaii Color Palette */
-  --kawaii-purple: #E0B0FF;
-  --kawaii-pink: #FFB6D9;
-  --kawaii-mint: #B4F8C8;
-  --kawaii-yellow: #FFF4A3;
-  --kawaii-peach: #FFCCB3;
-  --kawaii-lavender: #E6E6FA;
+  /* Modern Neutral Color Palette */
+  --kawaii-purple: #8B7CFF;  /* Vibrant blue-purple */
+  --kawaii-pink: #FF6B9D;    /* Coral-pink accent */
+  --kawaii-mint: #4ECDC4;    /* Teal */
+  --kawaii-yellow: #FFD93D;  /* Bright yellow */
+  --kawaii-peach: #FF8C61;   /* Warm orange */
+  --kawaii-lavender: #C7D0E8; /* Soft blue-grey */
 
-  /* Background colors */
-  --background: #FFFBF5;
-  --background-secondary: #FFF8F0;
-
-  /* Text colors */
-  --text-primary: #4A4A4A;
-  --text-secondary: #8E8E8E;
-  --text-muted: #C4C4C4;
+  /* Light mode colors */
+  --background: #FFFFFF;
+  --background-secondary: #F8F9FA;
+  --text-primary: #2D3748;
+  --text-secondary: #718096;
+  --text-muted: #A0AEC0;
 
   /* Interactive colors */
   --primary: var(--kawaii-purple);
-  --primary-hover: #D4A0F4;
-  --secondary: var(--kawaii-pink);
-  --accent: var(--kawaii-mint);
+  --primary-hover: #7A6BF0;
+  --secondary: var(--kawaii-mint);
+  --accent: var(--kawaii-yellow);
 
   /* Shadows */
-  --shadow-kawaii: 0 4px 15px rgba(224, 176, 255, 0.3);
-  --shadow-kawaii-hover: 0 6px 20px rgba(224, 176, 255, 0.4);
-  --shadow-sm: 0 2px 8px rgba(224, 176, 255, 0.2);
+  --shadow-kawaii: 0 4px 15px rgba(139, 124, 255, 0.2);
+  --shadow-kawaii-hover: 0 6px 20px rgba(139, 124, 255, 0.3);
+  --shadow-sm: 0 2px 8px rgba(139, 124, 255, 0.15);
+}
+
+/* Dark mode (default) */
+.dark {
+  /* Dark mode backgrounds */
+  --background: #0F172A;
+  --background-secondary: #1E293B;
+
+  /* Dark mode text */
+  --text-primary: #F1F5F9;
+  --text-secondary: #CBD5E1;
+  --text-muted: #64748B;
+
+  /* Dark mode shadows */
+  --shadow-kawaii: 0 4px 15px rgba(139, 124, 255, 0.3);
+  --shadow-kawaii-hover: 0 6px 20px rgba(139, 124, 255, 0.4);
+  --shadow-sm: 0 2px 8px rgba(139, 124, 255, 0.2);
 }
 
 @theme inline {

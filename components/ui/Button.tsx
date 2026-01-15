@@ -31,9 +31,9 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
 
     const variantStyles = {
       primary:
-        'bg-kawaii-purple text-text-primary hover:bg-[#D4A0F4] shadow-[0_4px_15px_rgba(224,176,255,0.3)] hover:shadow-[0_6px_20px_rgba(224,176,255,0.4)] active:scale-95',
+        'bg-kawaii-purple text-white hover:bg-[#7A6BF0] shadow-[0_4px_15px_rgba(139,124,255,0.3)] hover:shadow-[0_6px_20px_rgba(139,124,255,0.4)] active:scale-95',
       secondary:
-        'bg-kawaii-pink text-text-primary hover:bg-[#FFA5CC] shadow-[0_4px_15px_rgba(255,182,217,0.3)] hover:shadow-[0_6px_20px_rgba(255,182,217,0.4)] active:scale-95',
+        'bg-kawaii-mint text-white hover:bg-[#3DB8B0] shadow-[0_4px_15px_rgba(78,205,196,0.3)] hover:shadow-[0_6px_20px_rgba(78,205,196,0.4)] active:scale-95',
       ghost:
         'bg-transparent text-text-primary hover:bg-kawaii-lavender/30 active:scale-95',
     };
