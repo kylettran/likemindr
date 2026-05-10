@@ -4,6 +4,7 @@ const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Programs', href: '#programs' },
   { label: 'Impact', href: '#impact' },
+  { label: 'Our Story', href: '#founder' },
   { label: 'Get Involved', href: '#get-involved' },
   { label: 'Contact', href: '#contact' },
 ]
